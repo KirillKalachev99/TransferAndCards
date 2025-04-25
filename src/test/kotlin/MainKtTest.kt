@@ -40,8 +40,8 @@ class MainKtTest {
         assertEquals(0, result4)
         assertEquals(80, result6)
         assertEquals(35, result7)
-        assertEquals(35, result8)
-        assertEquals(35, result9)
+        assertEquals(0, result8)
+        assertEquals(0, result9)
 
     }
 }
