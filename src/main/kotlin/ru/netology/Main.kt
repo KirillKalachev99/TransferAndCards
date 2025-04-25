@@ -26,7 +26,7 @@ fun main() {
 
 fun comissionCount(cardType: String = CARD_TYPE_POOL[2], monthlySum: Int, transferSum: Int) : Int{
     if (transferSum > DAILY_LIMIT) {
-        throw IllegalArgumentException("Сумма перевода не может быть больше дневного лимита на переводы в $DAILY_LIMIT руб.")
+        println("Сумма перевода не может быть больше дневного лимита на переводы в $DAILY_LIMIT руб.")
     }
 
     val dailySum = 0
